@@ -10,28 +10,28 @@ from tensorflow.keras.layers import Dense
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Activity05_01
-		self.exercises = Activity05_01
+		import Activity06_01
+		self.exercises = Activity06_01
 
-		self.file_url = 'https://raw.githubusercontent.com/PacktWorkshops/The-TensorFlow-Workshop/master/Chapter05/dataset/letter-recognition.data'
-		self.data = pd.read_csv(self.file_url, header=None)
-		self.target = self.data.pop(0)
+		self.usecols = ['AAGE','ADTIND','ADTOCC','SEOTR','WKSWORK', 'PTOTVAL']
+		self.train_url = 'https://github.com/PacktWorkshops/The-TensorFlow-Workshop/blob/master/Chapter06/dataset/census-income-train.csv?raw=true'
+		self.test_url = 'https://github.com/PacktWorkshops/The-TensorFlow-Workshop/blob/master/Chapter06/dataset/census-income-test.csv?raw=true'
 
-		self.X_train = self.data[:15000]
-		self.y_train = self.target[:15000]
-		self.X_test = self.data[15000:]
-		self.y_test = self.target[15000:]
+		self.train_data = pd.read_csv(self.train_url, usecols=self.usecols)
+		self.train_target = self.train_data.pop('PTOTVAL')
+		self.test_data = pd.read_csv(self.test_url, usecols=self.usecols)
+		self.test_target = self.test_data.pop('PTOTVAL')
 
 		np.random.seed(8)
 		tf.random.set_seed(8)
 
 		self.model = tf.keras.Sequential()
 
-		fc1 = Dense(512, input_shape=(16,), activation='relu')
+		fc1 = Dense(1048, input_shape=(5,), activation='relu')
 		fc2 = Dense(512, activation='relu')
 		fc3 = Dense(128, activation='relu')
-		fc4 = Dense(128, activation='relu')
-		fc5 = Dense(26, activation='softmax')
+		fc4 = Dense(64, activation='relu')
+		fc5 = Dense(1)
 
 		self.model.add(fc1)
 		self.model.add(fc2)
@@ -39,44 +39,53 @@ class Test(unittest.TestCase):
 		self.model.add(fc4)
 		self.model.add(fc5)
 
-		loss = tf.keras.losses.SparseCategoricalCrossentropy()
-		optimizer = tf.keras.optimizers.Adam(0.001)
+		optimizer = tf.keras.optimizers.Adam(0.05)
 
-		self.model.compile(optimizer=optimizer, loss=loss, metrics=['accuracy'])
-		self.model.fit(self.X_train, self.y_train, epochs=5)
+		self.model.compile(optimizer=optimizer, loss='mse', metrics=['mse'])
 
-		self.preds_proba = self.model.predict(self.X_test)
-		self.preds = self.preds_proba.argmax(axis=1)
+		self.model2 = tf.keras.Sequential()
 
-	def test_file_url(self):
-		self.assertEqual(self.exercises.file_url, self.file_url)
+		reg_fc1 = Dense(1048, input_shape=(5,), activation='relu',
+						kernel_regularizer=tf.keras.regularizers.l1_l2(l1=0.001, l2=0.001))
+		reg_fc2 = Dense(512, activation='relu', kernel_regularizer=tf.keras.regularizers.l1_l2(l1=0.001, l2=0.001))
+		reg_fc3 = Dense(128, activation='relu', kernel_regularizer=tf.keras.regularizers.l1_l2(l1=0.001, l2=0.001))
+		reg_fc4 = Dense(64, activation='relu', kernel_regularizer=tf.keras.regularizers.l1_l2(l1=0.001, l2=0.001))
+		reg_fc5 = Dense(1, activation='relu')
 
-	def test_data(self):
-		pd_testing.assert_frame_equal(self.exercises.data, self.data)
+		self.model2.add(reg_fc1)
+		self.model2.add(reg_fc2)
+		self.model2.add(reg_fc3)
+		self.model2.add(reg_fc4)
+		self.model2.add(reg_fc5)
 
-	def test_target(self):
-		np_testing.assert_array_equal(self.exercises.target, self.target)
+		self.model2.compile(optimizer=tf.keras.optimizers.Adam(0.1), loss='mse', metrics=['mse'])
 
-	def test_X_train(self):
-		pd_testing.assert_frame_equal(self.exercises.X_train, self.X_train)
+	def test_usecols(self):
+		np_testing.assert_array_equal(self.exercises.usecols, self.usecols)
 
-	def test_y_train(self):
-		np_testing.assert_array_equal(self.exercises.y_train, self.y_train)
+	def test_train_url(self):
+		self.assertEqual(self.exercises.train_url, self.train_url)
 
-	def test_X_test(self):
-		pd_testing.assert_frame_equal(self.exercises.X_test, self.X_test)
+	def test_test_url(self):
+		self.assertEqual(self.exercises.test_url, self.test_url)
 
-	def test_y_test(self):
-		np_testing.assert_array_equal(self.exercises.y_test, self.y_test)
+	def test_train_data(self):
+		pd_testing.assert_frame_equal(self.exercises.train_data, self.train_data)
+
+	def test_test_data(self):
+		pd_testing.assert_frame_equal(self.exercises.test_data, self.test_data)
+
+	def test_train_target(self):
+		np_testing.assert_array_equal(self.exercises.train_target, self.train_target)
+
+	def test_test_target(self):
+		np_testing.assert_array_equal(self.exercises.test_target, self.test_target)
 
 	def test_summary(self):
 		self.assertEqual(self.exercises.model.summary(), self.model.summary())
 
-	def test_preds_proba(self):
-		np_testing.assert_array_equal(self.exercises.preds_proba, self.preds_proba)
-
-	def test_preds(self):
-		np_testing.assert_array_equal(self.exercises.preds, self.preds)
+	def test_summary2(self):
+		self.assertEqual(self.exercises.model2.summary(), self.model2.summary())
 
 
 if __name__ == '__main__':
