@@ -16,7 +16,7 @@ easyai = "==1.0.0.4"
 tensorflow = "==2.2.0"
 scipy = "==1.4.1"
 keras-tuner = "==1.0.1"
-pillow = "==7.2.0"
+pillow = "==8.3.2"
 tensorflow-hub = "==0.8.0"
 
 [requires]
