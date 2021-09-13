@@ -9,20 +9,14 @@ class MultiplicationTest(tf.test.TestCase):
         super(MultiplicationTest, self).setUp()
         self.activity = Activity1_03
         
-    def testMultiplication1(self):
-        matrix1 = tf.Variable([[1,2,3], [4,5,6], [7,8,9]])
-        matrix2 = tf.Variable([[6,2,6], [-2,4,0], [-4,2,-8]])
-        matmul1 = tf.matmul(matrix1, matrix2)
-        output = self.activity.matmul1.numpy()
-        expected_output = matmul1.numpy()
-        self.assertAllEqual(expected_output, output)
-
-    def testMultiplication2(self):
-        tensor1 = tf.Variable([[[2,1], [2, 1]], [[2,1],[2,1]], [[2,1],[2,1]]])
-        tensor2 = tf.Variable([[[-3,7], [4, 5]], [[-10,2],[-3,3]], [[2,2],[0,-1]]])
-        matmul2 = tf.matmul(tensor1, tensor2)
-        output = self.activity.matmul2.numpy()
-        expected_output = matmul2.numpy()
+    def testResult(self):
+        input1 = tf.Variable([[-0.013, 0.024, 0.06, 0.022], 
+                       [0.001, -0.047, 0.039, 0.016],
+                       [0.018, 0.030, -0.021, -0.028]], tf.float32)
+        weights = tf.Variable([[19995.95], [24995.50], [36745.50], [29995.95]], tf.float32)
+        bias = tf.Variable([[-2500.0],[-2500.0],[-2500.0]], tf.float32)
+        output = self.activity.output.numpy()
+        expected_output = (tf.matmul(input1,weights) + bias).numpy()
         self.assertAllEqual(expected_output, output)
 
 if __name__ == '__main__':
