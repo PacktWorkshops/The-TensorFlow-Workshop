@@ -12,7 +12,7 @@ class DataTest(tf.test.TestCase):
         import Exercise3_03
         super(DataTest, self).setUp()
         self.exercise = Exercise3_03
-        module = hub.load('https://tfhub.dev/google/imagenet/inception_v3/classification/1')
+        module = hub.load('https://tfhub.dev/google/imagenet/inception_v3/classification/5')
         self.model = module.signatures['default']
         
         
