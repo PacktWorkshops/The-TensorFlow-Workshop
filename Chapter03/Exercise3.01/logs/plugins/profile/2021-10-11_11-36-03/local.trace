@@ -1,0 +1,27 @@
+
+;õ6
+	/host:CPUõÄÏ
+
+tf_ComputeÄÏ¨§¨§"`õ¨§my_matmult_funcHàã•âç™P èçZ
+tracing_count1Z$
+tf_function_callnotTraced-nonXla"/õ¨§TFE_Py_ExecuteCancelableHàô¸‰é™P€Êê†"Cõ¨§,EagerExecute: __inference_my_matmult_func_16H ˆˆ¬é™P€Ú‚œ"Hõ¨§1EagerLocalExecute: __inference_my_matmult_func_16H€£Å­é™P Š­š"5õ¨§EagerCopyToDeviceAndAddCacheKeyHàòš¯é™P ›Ÿ"2õ¨§ValidateInputTypeAndPlacementH ‡ù¾é™PàÆ[")õ¨§EagerKernelExecuteHàè‘Áé™Pà“Ô…"/õ¨§KernelAndDeviceFunc::RunHàÛ¼Âé™PÀ…Š€"Lõ¨§FunctionRunH ‹‰Õé™P È	Z
+id-1640747789297740479Z
+group_id0",õ¨§TFE_DeleteTensorHandleHà÷Ÿˆì™PÀê’"!õ¨§tf.constantHÀ…ûµí™P ˆœ"+õ¨§TFE_DeleteTensorHandleHÀ„ìÈí™P ÷6".õ¨§TFE_Py_FastPathExecute_CH €•âí™P€’""+õ¨§TFE_DeleteTensorHandleH€¡µìí™PÀš"+õ¨§TFE_DeleteTensorHandleH ‚íí™P ".õ¨§EagerExecute: LogicalAndH ¦…ñí™P€ÁŞ"3õ¨§EagerLocalExecute: LogicalAndH ÅÎñí™P ú‚"2õ¨§ValidateInputTypeAndPlacementH€£½÷í™PÀÏ$"(õ¨§EagerKernelExecuteH „¥øí™PÀŞ
+"Sõ¨§
+LogicalAndHàšÖúí™P ’¥Z"
+	long_nameLogicalAnd:LogicalAndZ
+is_eager1"'õ¨§convert_to_tensorHàÜâÂî™P€Ã±".õ¨§TFE_Py_FastPathExecute_CH€²¹Êî™P §",õ¨§EagerExecute: IdentityH ¦ÙÒî™PàÇŸ"1õ¨§EagerLocalExecute: IdentityHàõıÒî™Pàİî"2õ¨§ValidateInputTypeAndPlacementH àÖî™PÀš"(õ¨§EagerKernelExecuteHÀ×ÇÖî™P€ÇŒ"Lõ¨§IdentityHÀ«©×î™PÀ¹UZ
+	long_nameIdentity:IdentityZ
+is_eager1".õ¨§TFE_Py_FastPathExecute_CH üÂŞî™PÀ¾ô"'õ¨§convert_to_tensorHÀşå›ï™PÀ²ã
+"'õ¨§convert_to_tensorH …Ü¨ï™Pà™®"!õ¨§tf.constantH Ö¦±ï™P ­“"'õ¨§convert_to_tensorH€üå¾ï™P ½´"!õ¨§tf.constantHà­¶Åï™P€Äõ	"+õ¨§TFE_DeleteTensorHandleHà”ĞÍï™Pà‘C"'õ¨§convert_to_tensorH –öÕï™P€ò›"!õ¨§tf.constantHàæŞÛï™PÀ©é	"+õ¨§TFE_DeleteTensorHandleHÀª£äï™PÀÏ$".õ¨§TFE_Py_ExecuteCancelableH€İ†ïï™PÀ½å"0õ¨§EagerExecute: WriteSummaryH  éôï™PÀè¿"5õ¨§EagerLocalExecute: WriteSummaryHàïõï™PÀş"2õ¨§ValidateInputTypeAndPlacementHÀç¦øï™P Â"(õ¨§EagerKernelExecuteH ùéøï™Pà²”"Yõ¨§WriteSummaryH ‚äùï™PÀ²ã
+Z&
+	long_nameWriteSummary:WriteSummaryZ
+is_eager1"+õ¨§TFE_DeleteTensorHandleH €‘‡ğ™PàÆ["+õ¨§TFE_DeleteTensorHandleHà£—ˆğ™P Â"+õ¨§TFE_DeleteTensorHandleH€›Îˆğ™P "!õ¨§tf.constantHÀŠ€ğ™PÀİ½"+õ¨§TFE_DeleteTensorHandleHà‡š˜ğ™PÀÏ$"+õ¨§TFE_DeleteTensorHandleH Áï˜ğ™Pà‘C"+õ¨§TFE_DeleteTensorHandleH€Õï¼ğ™P ÷6"+õ¨§TFE_DeleteTensorHandleHÀÃİ½ğ™P "fõÄÏExecutorState::ProcessH€Ã¼äé™P€œç Z
+id-1640747789297740479Z
+iter_num0Z
+group_id0"VõÄÏMatMulHÀì¥îé™PàÉ§Z
+	long_nameMatMul:MatMulZ
+group_id0Z
+is_eager0"UõÄÏExecutorDoneCallbackHÀÍ‘†ê™Pà­õZ
+id-1640747789297740479Z
+group_id0
