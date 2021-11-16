@@ -1,0 +1,37 @@
+
+;õ6
+	/host:CPUõ´¿
+
+tf_Compute´¿ä‚ä‚"Võä‚my_funcHÀ½„âæªP í§©¿<Z
+tracing_count1Z!
+tf_function_calltraced-nonXla"2õä‚tf.function-graph_buildingH ¯•åõªPˆÛô–Ê;"'õä‚convert_to_tensorHàœ¢˜øåP Ïá"'õä‚convert_to_tensorHð”»µøåP¨¼ª"'õä‚convert_to_tensorHÐÀ´¬ùåPø–"'õä‚convert_to_tensorH«½ùåP¸æ­"'õä‚convert_to_tensorHÈí•›ÿåPè„ø"'õä‚convert_to_tensorHÀÄ¹«ÿåP¸ì´"'õä‚convert_to_tensorH ö¼€ŠæPÐÅå"'õä‚convert_to_tensorHÐ£ÏŠæPˆÞ¾"'õä‚convert_to_tensorH¸²…û“æPèéý"'õä‚convert_to_tensorHèÔèŒ”æPØ£¤"'õä‚convert_to_tensorHˆ—þ‰–æPÈŽ—"'õä‚convert_to_tensorHˆÄ¾Ã–æPÀËÌ"'õä‚convert_to_tensorH€¿Ï—æPˆ‚"'õä‚convert_to_tensorHˆÝ·…˜æPØÌÉ"/õä‚TFE_Py_ExecuteCancelableHÀ‚å®ÁæPðÕÃc";õä‚$EagerExecute: __inference_my_func_21H ÇØÃÁæP˜”¶«c"@õä‚)EagerLocalExecute: __inference_my_func_21Hèý»ÄÁæPàöºªc"5õä‚EagerCopyToDeviceAndAddCacheKeyHÀÏ°ÅÁæPˆãã"2õä‚ValidateInputTypeAndPlacementHàÝ¾ëçPÈ°e")õä‚EagerKernelExecuteHØèÑíçPˆç‡€"/õä‚KernelAndDeviceFunc::RunHøÍîçPÈ¬£"Lõä‚FunctionRunH˜‡öšçP˜ãâZ
+id-7240405985764398680Z
+group_id0"!õä‚tf.constantHà¹¢ÔªçP¸ÈŠ"+õä‚TFE_DeleteTensorHandleH¨ÂŽåªçPÈ¤i"/õä‚TFE_Py_FastPathExecute_CHèîÛ÷ªçP¸Õñˆ"/õä‚EagerExecute: _EagerConstH˜ê˜š«çPøÕŠP"4õä‚EagerLocalExecute: _EagerConstHèŒæš«çP°é¸O"2õä‚ValidateInputTypeAndPlacementH¸ç±Í«çP°–"(õä‚EagerKernelExecuteH¨ð‘Î«çP˜‹ù",õä‚_EagerConst:_EagerConstHÉñÏ«çP€O"+õä‚TFE_DeleteTensorHandleHÈãœë«çPè˜$"+õä‚TFE_DeleteTensorHandleH˜–¸ì«çPð¥"+õä‚TFE_DeleteTensorHandleHøàåí«çP˜ò".õä‚EagerExecute: LogicalAndHÚ¸î«çPðÈî"3õä‚EagerLocalExecute: LogicalAndH˜¿Îî«çP°ÕÕ"2õä‚ValidateInputTypeAndPlacementH€¬¹ø«çPøº	"(õä‚EagerKernelExecuteH€ÞÒø«çP·É"Sõä‚
+LogicalAndHÈ³‚ù«çP°²ØZ"
+	long_nameLogicalAnd:LogicalAndZ
+is_eager1"'õä‚convert_to_tensorHØêâ¡¬çPÐÿ¥".õä‚TFE_Py_FastPathExecute_CH˜¬Ð§¬çPð´Ë",õä‚EagerExecute: IdentityHÐ†ÿ¬¬çPÀÖ×
+"1õä‚EagerLocalExecute: IdentityH¨„’­¬çP ùÁ
+"2õä‚ValidateInputTypeAndPlacementHàËçµ¬çPøº	"(õä‚EagerKernelExecuteHˆ¸…¶¬çP¸¿Ã"Lõä‚IdentityH°Ð¾¶¬çPÀáZ
+	long_nameIdentity:IdentityZ
+is_eager1".õä‚TFE_Py_FastPathExecute_CHà¬‰¼¬çP°˜º"'õä‚convert_to_tensorHÀ±‘ß¬çPÈØ"'õä‚convert_to_tensorH˜”Œê¬çPð·Ò7"!õä‚tf.constantHÐÖß­çPˆ²"+õä‚TFE_DeleteTensorHandleHüêœ­çP¸«#"'õä‚convert_to_tensorH ôÈ£­çPàáŠ"!õä‚tf.constantH˜Úç³­çP¨ƒ"+õä‚TFE_DeleteTensorHandleHÈÃ‡¸­çP æ"'õä‚convert_to_tensorHø…±½­çPøçÄ"!õä‚tf.constantH¸¼éÇ­çPØð´"+õä‚TFE_DeleteTensorHandleH¨¹ÄË­çPˆî".õä‚TFE_Py_ExecuteCancelableH€·ÂÒ­çPàò¥"0õä‚EagerExecute: WriteSummaryHˆï××­çPè‰ç"5õä‚EagerLocalExecute: WriteSummaryHð´í×­çPø«Ì"2õä‚ValidateInputTypeAndPlacementH¸»Ââ­çP˜Ë"(õä‚EagerKernelExecuteH¸®ðâ­çPè”±
+"Yõä‚WriteSummaryHÀˆÝã­çPàÁ˜	Z&
+	long_nameWriteSummary:WriteSummaryZ
+is_eager1"+õä‚TFE_DeleteTensorHandleH èåî­çPØêB"+õä‚TFE_DeleteTensorHandleHÐ²Åï­çPèÚ"+õä‚TFE_DeleteTensorHandleHèÜÞï­çPÈâ"!õä‚tf.constantHð·•ô­çPð˜¢"+õä‚TFE_DeleteTensorHandleHà¸Âø­çPðû"+õä‚TFE_DeleteTensorHandleH Ûéü­çPèÊ="+õä‚TFE_DeleteTensorHandleH°ôÎý­çP¸ì7"+õä‚TFE_DeleteTensorHandleHðÀÜ…®çP¸«#"+õä‚TFE_DeleteTensorHandleHÀ“š†®çPˆ•"fõ´¿ExecutorState::ProcessHØåÕÎšçP°¾Å
+Z
+id-7240405985764398680Z
+iter_num0Z
+group_id0"gõ´¿ExecutorState::ProcessHø¹ÄÜšçP¸©Õš	Z
+id-7240405985764398680Z
+iter_num0Z
+group_id0"eõ´¿BatchMatMulV2H€÷ÝšçP¨‚À‚Z!
+	long_nameMatMul:BatchMatMulV2Z
+group_id0Z
+is_eager0"Rõ´¿AddV2HˆæÆážçPèÜÀñZ
+	long_name	add:AddV2Z
+group_id0Z
+is_eager0"Zõ´¿SigmoidHðêÇÕ¢çPŒ¿™Z
+	long_nameSigmoid:SigmoidZ
+group_id0Z
+is_eager0"Uõ´¿ExecutorDoneCallbackH ØÐù£çPð¤ôZ
+id-7240405985764398680Z
+group_id0
