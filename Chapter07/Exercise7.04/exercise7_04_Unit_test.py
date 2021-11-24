@@ -9,7 +9,7 @@ class ExerciseTest(tf.test.TestCase):
         self.exercise = exercise7_04
 
     def testVersion(self):
-        self.assertEqual(tf.__version__, "2.2.0")
+        self.assertEqual(tf.__version__, "2.6.0")
 
     def testLayer0(self):
         model = self.exercise.our_model
