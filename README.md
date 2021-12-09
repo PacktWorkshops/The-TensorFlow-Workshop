@@ -1,9 +1,9 @@
-#The TensorFlow Workshop
+# The TensorFlow Workshop
 
 This is the repository for [The TensorFlow Workshop](https://www.amazon.in/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_1?keywords=the+tensorflow+workshop&qid=1639029259&s=books&sr=1-1), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href="https://packt.link/a/1800560478"><img src="https://static.packt-cdn.com/products/9781800560475/cover/smaller" alt="Data Science for Marketing Analytics, 2nd Edition" height="280px" width="230px" align="right" this.target="_blank"></a>
+<a href="https://packt.link/a/1800560478"><img src="https://static.packt-cdn.com/products/9781800205253/cover/smaller" alt="The TensorFlow Workshop" height="280px" width="230px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
 1. Install [Anaconda](https://www.anaconda.com/distribution/)
