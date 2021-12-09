@@ -1,9 +1,9 @@
 # The TensorFlow Workshop
 
-This is the repository for [The TensorFlow Workshop](https://www.amazon.in/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_1?keywords=the+tensorflow+workshop&qid=1639029259&s=books&sr=1-1), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
+This is the repository for [The TensorFlow Workshop](https://www.amazon.com/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_2?keywords=the+tensorflow+workshop&qid=1639029749&sr=8-2), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href="https://packt.link/a/1800560478"><img src="https://static.packt-cdn.com/products/9781800205253/cover/smaller" alt="The TensorFlow Workshop" height="280px" width="230px" align="right" this.target="_blank"></a>
+<a href="https://www.amazon.com/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_2?keywords=the+tensorflow+workshop&qid=1639029749&sr=8-2"><img src="https://static.packt-cdn.com/products/9781800205253/cover/smaller" alt="The TensorFlow Workshop" height="280px" width="230px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
 1. Install [Anaconda](https://www.anaconda.com/distribution/)
@@ -12,7 +12,7 @@ To get started with the project files, you'll need to:
 
 ## About The TensorFlow Workshop
 
-[The TensorFlow Workshop](https://www.amazon.in/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_1?keywords=the+tensorflow+workshop&qid=1639029259&s=books&sr=1-1) teaches you how to build deep learning models from scratch using real world datasets with the Tensorflow framework. You will gain the knowledge to process a variety of data types, including tabular data that includes numbers and text, sequential data such as financial data, and images.
+[The TensorFlow Workshop](https://www.amazon.com/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_2?keywords=the+tensorflow+workshop&qid=1639029749&sr=8-2) teaches you how to build deep learning models from scratch using real world datasets with the Tensorflow framework. You will gain the knowledge to process a variety of data types, including tabular data that includes numbers and text, sequential data such as financial data, and images.
 
 ## What You Will learn
 * Get friendly with various mathematical operations of TensorFlow 
