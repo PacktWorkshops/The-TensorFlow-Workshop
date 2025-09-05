@@ -1,3 +1,6 @@
+
+<b><p align='center'>[![Packt Sale](https://static.packt-cdn.com/assets/images/packt+events/Improve_UX.png)](https://packt.link/algotradingpython)</p></b> 
+
 # The TensorFlow Workshop
 
 This is the repository for [The TensorFlow Workshop](https://www.amazon.com/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_2?keywords=the+tensorflow+workshop&qid=1639029749&sr=8-2), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
