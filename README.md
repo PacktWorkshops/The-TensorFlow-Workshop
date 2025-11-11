@@ -1,3 +1,5 @@
+<p align='center'><a href='https://www.eventbrite.com/e/algorithmic-trading-with-python-cohort-2-tickets-1833367644979?aff=oddtdtcreator'><img src='https://static.packt-cdn.com/assets/images/packt+events/Python_for_Algorithmic Trading_v1.png'/></a></p>
+
 # The TensorFlow Workshop
 
 This is the repository for [The TensorFlow Workshop](https://www.amazon.com/TensorFlow-Workshop-hands-building-real-world-ebook/dp/B095SN22Y4/ref=sr_1_2?keywords=the+tensorflow+workshop&qid=1639029749&sr=8-2), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
